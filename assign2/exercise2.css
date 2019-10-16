@@ -145,10 +145,63 @@ body {
   margin-left: 6em;
 }
 
+.title-card {
+  opacity: 0.8;
+  background-color: gray;
+  margin-left: 4em;
+  max-width: 40em;
+  margin-top: 15em;
+  margin-bottom: 3em;
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
+
+.title {
+  font-size: 2.5em;
+  color: white;
+  margin: 1em;
+}
+
+.subtitle {
+  font-size: 1.25em;
+  color: white;
+  margin: 2em;
+}
+
 .research {
   text-transform: uppercase;
+  font-size: 0.9em;
+}
+
+.research-box {
+  background-color: gray;
+  max-width: 5em;
+  margin-bottom: 1em;
 }
 
 .news-box {
-  
+  margin-left: 5em;
+}
+
+.bottom-spacing {
+  margin-bottom: 2em
+}
+
+.research-title {
+  color: darkgray;
+  font-size: 2em;
+}
+
+.research-title-box {
+  max-width: 35em;
+}
+
+.research-subtitle {
+  color: darkgray;
+  font-size: 1em;
+}
+
+
+.research-subtitle-box {
+  max-width: 35em;
 }
