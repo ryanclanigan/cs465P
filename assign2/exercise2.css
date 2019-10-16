@@ -1,0 +1,154 @@
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: gray;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content  {
+  display: block;
+}
+
+.horizontal-list-item {
+  display: inline;
+}
+
+.menu-item {
+  color: white;
+}
+
+.menu-item:hover {
+  color: #A8B400;
+}
+
+a:link {
+  color: none;
+  text-decoration: none;
+}
+
+body {
+  background: #566E10
+}
+
+.rhomboid {
+  width: 250px;
+  height: 60px;
+  background-color: #5F7D1D;
+  -webkit-transform: skew(-20deg);
+  -moz-transform: skew(-20deg);
+  -o-transform: skew(-20deg);
+  transform: skew(-20deg);
+  margin-left: 25px;
+}
+
+.campaign {
+  text-align: center;
+}
+
+
+.reverse-list {
+  display: inline-block;
+}
+
+.reverse {
+  transform: rotate(180deg);
+}
+
+.reverse > .reverse-list {
+  transform: rotate(-180deg);
+}
+
+.dropdown-list-header {
+  color: lightseagreen;
+  border-top: dotted lightgray;
+  border-bottom: dotted lightgray;
+  background-color: gray;
+  font-size: 1em;
+}
+
+.dropdown-list {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 1em;
+  text-indent: 0.5em;
+}
+
+.dropdown-list li::before {
+  content: '>>';
+  position: absolute;
+  left: 0;
+}
+
+.dropdown-list-item {
+  color: white;
+  font-size: 1em;
+}
+
+.dropdown-list-item:hover {
+  color: teal;
+}
+
+.no-display {
+  display: none;
+}
+
+.search-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.search-dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 16em;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  margin-top: 1em;
+  z-index: 1;
+}
+
+.search-dropdown:hover .search-dropdown-content  {
+  display: block;
+}
+
+.float-right {
+  float: right;
+}
+
+.right-spacing {
+  padding-right: 40px;
+}
+
+.tall-div {
+  margin-bottom: 4em;
+  margin-top: 10em;
+}
+
+.logo {
+  max-width: 16em;
+  max-height: 12em;
+}
+
+.logo-left {
+  margin-left: 8em;
+}
+
+.menu-items-left {
+  margin-left: 6em;
+}
+
+.research {
+  text-transform: uppercase;
+}
+
+.news-box {
+  
+}
