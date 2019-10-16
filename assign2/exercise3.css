@@ -19,11 +19,13 @@ body {
 }
 
 h3 {
+  font-size: 2em;
   margin-bottom: 0;
 }
 
 h4 {
-  font-size: 1.25em;
+  font-size: 2.25em;
+  margin-bottom: 0;
 }
 
 h5 {
@@ -32,6 +34,7 @@ h5 {
 
 .description-div {
     padding-top: 0.25em;
+    padding-bottom: 1em;
 }
 
 #work-examples {
@@ -69,6 +72,7 @@ h5 {
   width: 40em;
   word-wrap: normal;
   color: white;
+  font-size: 1.2em;
 }
 
 #ryan-div {
