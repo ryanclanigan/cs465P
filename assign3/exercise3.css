@@ -1,0 +1,15 @@
+@import url(colors.css);
+
+div {
+  border-radius: 5px;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.box {
+  padding: 10px;
+  width: 170px;
+  height: 80px;
+  display: inline-block;
+  margin-top: 4px;
+}

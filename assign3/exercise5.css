@@ -1,0 +1,42 @@
+@import url(colors.css);
+
+div {
+  border-radius: 5px;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 10px;
+}
+
+.top-div {
+  width: 750px;
+  height: 80px;
+  margin-left: 10px;
+}
+
+.left-div {
+  width: 360px;
+  height: 170px;
+  float: left;
+}
+
+.three {
+  float: left;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  width: 360px;
+  height: 80px;
+}
+
+.four-five {
+  height: 80px;
+  float: left;
+}
+
+.four {
+
+}
+
+.five {
+  float: left;
+}
+
