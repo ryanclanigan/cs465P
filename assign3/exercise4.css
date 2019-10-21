@@ -3,15 +3,9 @@
 
 div {
   border-radius: 5px;
-  vertical-align: middle;
   color: white;
   font-family: 'Times New Roman', Times, serif;
   padding: 10px;
-  position: relative;
-}
-
-.inline {
-  display: inline-block;
 }
 
 .left-div {
