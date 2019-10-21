@@ -1,0 +1,9 @@
+.top-grid {
+  display: grid;
+  grid-template-rows: repeat(7, 80px);
+  grid-template-columns: repeat(3, 300px);
+  grid-gap: 10px;
+}
+
+
+
