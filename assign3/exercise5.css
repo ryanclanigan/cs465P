@@ -1,42 +1,36 @@
 @import url(colors.css);
+@import url(flexbox.css);
 
 div {
   border-radius: 5px;
   color: white;
   font-family: 'Times New Roman', Times, serif;
+}
+
+.box {
+  margin: 5px;
   padding: 10px;
 }
 
-.top-div {
-  width: 750px;
+.one {
   height: 80px;
-  margin-left: 10px;
+  width: 780px;
 }
 
-.left-div {
-  width: 360px;
-  height: 170px;
-  float: left;
+.two {
+  padding: 10px;
+  height: 190px;
+  width: 375px;
 }
 
 .three {
-  float: left;
-  margin-left: 10px;
-  margin-bottom: 10px;
-  width: 360px;
-  height: 80px;
+  padding: 10px;
+  width: 375px;
+  height: 80px;  
 }
 
 .four-five {
+  padding: 10px;
+  width: 173px;
   height: 80px;
-  float: left;
-}
-
-.four {
-
-}
-
-.five {
-  float: left;
-}
-
+} 
