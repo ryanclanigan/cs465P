@@ -1,0 +1,35 @@
+@import url(flexbox.css);
+@import url(colors.css);
+
+div {
+  border-radius: 5px;
+  vertical-align: middle;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 10px;
+  position: relative;
+}
+
+.inline {
+  display: inline-block;
+}
+
+.left-div {
+  height: 80px;
+  width: 250px;
+  margin-right: 5px;
+}
+
+.right-div {
+  height: 80px;
+  width: 500px;
+  margin-left: 5px;
+}
+
+.bottom-div {
+  width: 780px;
+  height: 80px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
