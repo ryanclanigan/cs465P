@@ -1,27 +1,44 @@
 <!DOCTYPE html>
 <html>
-  <head> 
-    <link rel="stylesheet" href="exercise1.css" type="text/css" media="screen">
-    <title>Exercise 1</title>
-  </head>
-  <body class="gradiented">
-    <form>
-      <div class="input-box">
-        <header>
-          <h2 id="title">CONTACT US</h2>
-        </header>
-        <input type="text" placeholder="Name" id="name" class="standard-input">
-        <br><br>
-        <input type="text" placeholder="Email" id="email" class="standard-input">
-        <br><br>
-        <textarea type="text" id="message" class="description standard-input"></textarea>
-        <br>
-        <br>
-        <div>
-          <input type="button" value="SUBMIT" id="submit" class="button">
-          <input type="button" value="RESET" id="reset" class="button">
-        </div>
-      </body>
+
+<head>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" />
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js">
+  </script>
+  <title>Exercise 1</title>
+</head>
+
+<body>
+  <div class="container mt-5 w-25">
+    <div class="border grid">
+      <h4 class="text-center mt-3">CONTACT US</h4>
+      <div class="row ml-4 mr-4">
+        <span class="">Name</span>
+      </div>
+      <div class="row mb-3 ml-4 mr-4">
+        <input type="text" id="name" class="rounded input-large w-100 border">
+      </div>
+      <div class="row ml-4 mr-4">
+        <span>Email</span>
+      </div>
+      <div class="row mb-3 ml-4 mr-4">
+        <input type="text" id="email" class="rounded w-100 border">
+      </div>
+      <div class="row ml-4 mr-4">
+        <span>Comment</span>
+      </div>
+      <div class="row mb-3 ml-4 mr-4" >
+        <textarea type="text" id="message" class="rounded w-100 h-100 border" rows=4></textarea>
+      </div>
+      <div class="mb-3 row ml-4 w-50">
+        <button type="button" class="bg-primary text-light border-0 rounded btn">Submit</button>
+        <button type="button" class="bg-secondary text-light border-0 rounded btn ml-1">Reset</button>
+      </div>
     </div>
-  </form>
+  </div>
+</body>
+
 </html>
