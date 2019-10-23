@@ -1,0 +1,23 @@
+.col-md {
+  background-color: navy;
+}
+
+.col-md-3 {
+  background-color: purple;
+}
+
+.col-md-4 {
+  background-color: darkcyan;
+}
+
+.col-md-6 {
+  background-color: yellowgreen;
+}
+
+.col-md-8 {
+  background-color: salmon;
+}
+
+.col-md-12 {
+  background-color: green;
+}
