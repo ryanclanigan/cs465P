@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" />
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js">
+  </script>
+  <script type="text/javascript" src="exercise3.js"></script>
+  <title>Exercise 3</title>
+</head>
+
+<body>
+  <div class="container mt-5 w-25">
+    <form class="border" id="form">
+      <h4 class="text-center mt-3">CONTACT US</h4>
+      <div class="row ml-4 mr-4">
+        <span class="">Name</span>
+      </div>
+      <div class="row mb-3 ml-4 mr-4">
+        <input type="text" id="name" class="rounded input-large w-100 border">
+      </div>
+      <div class="row ml-4 mr-4">
+        <span>Email</span>
+      </div>
+      <div class="row mb-3 ml-4 mr-4">
+        <input type="text" id="email" class="rounded w-100 border">
+      </div>
+      <div class="row ml-4 mr-4">
+        <span>Comment</span>
+      </div>
+      <div class="row mb-3 ml-4 mr-4" >
+        <textarea type="text" id="message" class="rounded w-100 h-100 border" rows=4></textarea>
+      </div>
+      <div class="mb-3 row ml-4 w-50">
+        <button type="button" class="bg-primary text-light border-0 rounded btn"
+        onclick="printContactInfo(document.getElementById('name'), document.getElementById('email'), document.getElementById('message'))">Submit</button>
+        <button type="button" class="bg-secondary text-light border-0 rounded btn ml-1" onclick="document.getElementById('form').reset()">Reset</button>
+      </div>
+    </form>
+  </div>
+</body>
+
+</html>
